@@ -1,31 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swiss Style / International Typographic Style</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <title>Swiss Style Design Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="A Swiss Style / International Typographic Style design gallery exploring its history, principles, and modern website examples."
+  />
+
+  <!-- Swiss-Style Fonts (Space Grotesk + Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <!-- =============================== -->
+  <!-- HEADER / NAVIGATION -->
+  <!-- =============================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-lockup">
+        <span class="logo-mark">CH</span>
+        <div class="logo-text">
+          <span class="logo-title">Swiss Style</span>
+          <span class="logo-subtitle">International Typographic Style</span>
+        </div>
+      </div>
 
-<header>
-    <h1>SWISS STYLE</h1>
-    <h2>International Typographic Style</h2>
-</header>
+      <nav class="nav">
+        <a href="#about">History</a>
+        <a href="#principles">Principles</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#credits">Sources</a>
+      </nav>
+    </div>
+  </header>
 
-<nav>
-    <a href="about.html">History</a>
-    <a href="style-guide.html">Style Demonstration</a>
-</nav>
+  <main>
+    <!-- =============================== -->
+    <!-- HERO SECTION -->
+    <!-- =============================== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Design Lineage Project</p>
 
-<section class="intro">
-    <p>
-        This site explores the origins, evolution, and defining visual language of 
-        Swiss Style, also known as the International Typographic Style. Through history 
-        and recreated examples, this project demonstrates the clarity, grid-based 
-        precision, and typographic discipline that shaped modern design.
-    </p>
-</section>
+          <h1 class="hero-title">
+            Swiss Style:
+            <span class="hero-highlight">The Art of Precision + Clarity</span>
+          </h1>
 
+          <p class="hero-body">
+            Swiss Style, also known as the International Typographic Style, is defined by
+            grid systems, sans-serif typography, precision, and minimalism. This modern gallery explores its origins, key design principles, and examples of how it shapes today’s digital interfaces.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-block">
+              <span class="meta-label">Origin</span>
+              <span class="meta-value">Switzerland • 1950s</span>
+            </div>
+
+            <div class="meta-block">
+              <span class="meta-label">Focus</span>
+              <span class="meta-value">Typography • Grids • Function</span>
+            </div>
+
+            <div class="meta-block">
+              <span class="meta-label">Philosophy</span>
+              <span class="meta-value">Minimal • Universal • Clear</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="grid-demo">
+            <div class="grid-cell cell-accent"><span>GRID</span></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell cell-type"><span>TYPE</span></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell cell-dark"><span>SPACE</span></div>
+          </div>
+
+          <p class="grid-caption">
+            Swiss Style establishes visual order through structured grid systems, consistent spacing, and neutral typography.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- HISTORY SECTION -->
+    <!-- =============================== -->
+    <section id="about" class="section section-split">
+      <div class="container split-grid">
+        <div>
+          <p class="section-kicker">01 — History</p>
+          <h2 class="section-title">What Is Swiss Style?</h2>
+        </div>
+
+        <div class="split-body">
+          <p>
+            Swiss Style emerged in the 1950s in Zürich and Basel. Designers like
+            Josef Müller-Brockmann, Emil Ruder, and Armin Hofmann emphasized clarity,
+            objectivity, and rational composition. The movement rejected decoration
+            and embraced photography, precise alignment, and typographic discipline.
+          </p>
+
+          <p>
+            Its mathematical grid system reshaped how designers approached layout.
+            By establishing structure first, content could be positioned logically,
+            ensuring harmony and readability. The style became widely adopted for
+            corporate identity, signage, magazines, and poster design.
+          </p>
+
+          <p>
+            Today, Swiss Style influences user interfaces, responsive layouts,
+            mobile apps, and modern design systems. Every clean, grid-aligned,
+            typography-driven website owes something to this movement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- PRINCIPLES SECTION -->
+    <!-- =============================== -->
+    <section id="principles" class="section">
+      <div class="container">
+        <p class="section-kicker">02 — Core Principles</p>
+        <h2 class="section-title">How Swiss Style Appears in Modern Web Design</h2>
+
+        <div class="principles-grid">
+          <div class="principle-card">
+            <h3>1. Grid Systems</h3>
+            <p>
+              A strict framework ensures consistent spacing, alignment,
+              readability, and hierarchy. The grid is the invisible backbone of the design.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <h3>2. Sans-Serif Typography</h3>
+            <p>
+              Helvetica, Univers, and Akzidenz-Grotesk give Swiss Style its neutral,
+              universal voice. Modern sites use similar clean typefaces for UI clarity.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <h3>3. Asymmetry</h3>
+            <p>
+              Rather than centering everything, Swiss Style uses dynamic left-aligned
+              compositions to create energy and structure.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <h3>4. Minimalism</h3>
+            <p>
+              Color palettes are intentionally limited. Visual noise is removed so
+              typography and layout carry the message.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <h3>5. Functional Design</h3>
+            <p>
+              Every element has a purpose. Swiss Style prioritizes legibility
+              and communication over decoration.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <h3>6. Universal Communication</h3>
+            <p>
+              The goal is clarity across languages and cultures through consistent,
+              objective visual systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- GALLERY SECTION -->
+    <!-- =============================== -->
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <p class="section-kicker">03 — Design Gallery</p>
+        <h2 class="section-title">Websites Influenced by Swiss Style</h2>
+
+        <div class="gallery-grid">
+          <div class="gallery-card">
+            <div class="gallery-tag">History</div>
+            <h3>The Swiss Grid · Poster House</h3>
+            <p>
+              A visual walkthrough of Swiss grid theory and its global influence.
+              Clean layouts, modular content, and structured spacing bring the
+              style to life.
+            </p>
+            <a href="https://swissgrid.posterhouse.org/" target="_blank" class="gallery-link">Visit Site →</a>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-tag">E-Commerce</div>
+            <h3>IKEA</h3>
+            <p>
+              IKEA’s website uses bold typography, strict grids, and clear product hierarchy
+              — a direct evolution of Swiss Style’s functional clarity.
+            </p>
+            <a href="https://www.ikea.com" target="_blank" class="gallery-link">Visit Site →</a>
+          </div>
+
+          <div class="gallery-card">
+            <div class="gallery-tag">Showcase</div>
+            <h3>Webflow Swissdesign</h3>
+            <p>
+              A curated gallery of modern sites influenced by Swiss poster design.
+              Strong type, grids, and minimal color define the aesthetic.
+            </p>
+            <a href="https://webflow.com/made-in-webflow/swissdesign" target="_blank" class="gallery-link">Visit Gallery →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- CREDITS SECTION -->
+    <!-- =============================== -->
+    <section id="credits" class="section">
+      <div class="container">
+        <p class="section-kicker">04 — Sources</p>
+        <h2 class="section-title">References</h2>
+
+        <ul class="sources-list">
+          <li>Poster House — The Swiss Grid Microsite</li>
+          <li>Articles on Swiss Style & International Typographic Style</li>
+          <li>Analyses of grid-based UX / UI design patterns</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- =============================== -->
+  <!-- FOOTER -->
+  <!-- =============================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Swiss Style Design Gallery — Student Project</p>
+      <p class="footer-meta">Created using Swiss-Style typography and grid-based layout principles.</p>
+    </div>
+  </footer>
 </body>
 </html>
